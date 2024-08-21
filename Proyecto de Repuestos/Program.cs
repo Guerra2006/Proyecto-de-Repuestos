@@ -832,7 +832,7 @@ class Mercado
                     Console.WriteLine("Ingresela cantidad de Imperial que desea ordenar");
                     int Cantidad = Convert.ToInt32(Console.ReadLine());
                     int subtotal3 = Cantidad * 30;
-                    Console.WriteLine($"Subtotal:  {subtotal3:F2}");
+                    Console.WriteLine($"Subtotales:  {subtotal3:F2}");
                     if (Edad > 59)
                     {
                         Double Descuento = subtotal3 * 0.30;
